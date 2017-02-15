@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E5C7BB71E5424D0004586AD /* Target_Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5C7BB61E5424D0004586AD /* Target_Home.m */; };
 		8EDBB9721E541ECF00312CBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDBB9711E541ECF00312CBA /* main.m */; };
 		8EDBB9751E541ECF00312CBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDBB9741E541ECF00312CBA /* AppDelegate.m */; };
 		8EDBB9781E541ECF00312CBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDBB9771E541ECF00312CBA /* ViewController.m */; };
@@ -41,6 +42,8 @@
 /* Begin PBXFileReference section */
 		112D21C8EE8FE0CD45937F08 /* libPods-Home.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Home.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A5388E6C688873FB356EDF4 /* Pods-Home.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Home.release.xcconfig"; path = "Pods/Target Support Files/Pods-Home/Pods-Home.release.xcconfig"; sourceTree = "<group>"; };
+		8E5C7BB51E5424D0004586AD /* Target_Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_Home.h; sourceTree = "<group>"; };
+		8E5C7BB61E5424D0004586AD /* Target_Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_Home.m; sourceTree = "<group>"; };
 		8EDBB96D1E541ECF00312CBA /* Home.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Home.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDBB9711E541ECF00312CBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8EDBB9731E541ECF00312CBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -99,6 +102,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		8E5C7BB41E542499004586AD /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				8E5C7BB51E5424D0004586AD /* Target_Home.h */,
+				8E5C7BB61E5424D0004586AD /* Target_Home.m */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
 		8EDBB9641E541ECF00312CBA = {
 			isa = PBXGroup;
 			children = (
@@ -125,10 +137,11 @@
 			isa = PBXGroup;
 			children = (
 				8EDBB9A61E54204000312CBA /* Home */,
-				8EDBB9731E541ECF00312CBA /* AppDelegate.h */,
-				8EDBB9741E541ECF00312CBA /* AppDelegate.m */,
+				8E5C7BB41E542499004586AD /* Targets */,
 				8EDBB9761E541ECF00312CBA /* ViewController.h */,
 				8EDBB9771E541ECF00312CBA /* ViewController.m */,
+				8EDBB9741E541ECF00312CBA /* AppDelegate.m */,
+				8EDBB9731E541ECF00312CBA /* AppDelegate.h */,
 				8EDBB9791E541ECF00312CBA /* Main.storyboard */,
 				8EDBB97F1E541ECF00312CBA /* Assets.xcassets */,
 				8EDBB9811E541ECF00312CBA /* LaunchScreen.storyboard */,
@@ -372,6 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EDBB9781E541ECF00312CBA /* ViewController.m in Sources */,
+				8E5C7BB71E5424D0004586AD /* Target_Home.m in Sources */,
 				8EDBB9751E541ECF00312CBA /* AppDelegate.m in Sources */,
 				8EDBB97E1E541ECF00312CBA /* Home.xcdatamodeld in Sources */,
 				8EDBB9AA1E54205700312CBA /* HomeViewController.m in Sources */,
